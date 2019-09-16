@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="31px" viewBox="0 0 40 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>100E720C-1BD4-4E72-93FD-B8AB822AE92F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 39.7927461 0 39.7927461 31 0 31"></polygon>
+    </defs>
+    <g id="z" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-1-Home-Page-" transform="translate(-688.000000, -41.000000)">
+            <g id="1" transform="translate(40.000000, 29.000000)">
+                <g id="Navigation">
+                    <g id="Menu" transform="translate(648.000000, 12.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Duplicate-control"></g>
+                        <path d="M2.5,0 L37.2927461,-7.10542736e-15 C38.673458,-3.68010454e-15 39.7927461,1.11928813 39.7927461,2.5 C39.7927461,3.88071187 38.673458,5 37.2927461,5 L2.5,5 C1.11928813,5 1.69088438e-16,3.88071187 0,2.5 C-1.69088438e-16,1.11928813 1.11928813,2.53632657e-16 2.5,0 Z M2.5,13 L37.2927461,13 C38.673458,13 39.7927461,14.1192881 39.7927461,15.5 C39.7927461,16.8807119 38.673458,18 37.2927461,18 L2.5,18 C1.11928813,18 1.69088438e-16,16.8807119 0,15.5 C-1.69088438e-16,14.1192881 1.11928813,13 2.5,13 Z M2.5,26 L37.2927461,26 C38.673458,26 39.7927461,27.1192881 39.7927461,28.5 C39.7927461,29.8807119 38.673458,31 37.2927461,31 L2.5,31 C1.11928813,31 1.69088438e-16,29.8807119 0,28.5 C-1.69088438e-16,27.1192881 1.11928813,26 2.5,26 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

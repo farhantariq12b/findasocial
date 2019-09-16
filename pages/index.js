@@ -31,16 +31,6 @@ const Index = (props) => (
         width: 1170px;
         margin: 0 auto;
       }
-      .account-title {
-        opacity: 0.6;
-        color: #FFFFFF;
-        font-family: 'Barlow', sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        text-align: center;
-        margin-bottom: 100px;
-      }
-
       .finda-banner-text {
         padding-top: 100px;
       }
@@ -59,6 +49,38 @@ const Index = (props) => (
         font-weight: 800;
         margin: 0 auto;
         text-align: center;
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1280px){
+        .finda-social-banner {
+          height: 750px;
+        }
+        .finda-social-banner__container {
+          width: 90%;
+        }
+        .finda-banner-text {
+          padding-top: 40px;
+        }
+        .banner-heading {
+          font-size: 45px;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 767px){
+        .finda-social-banner {
+          height: auto;
+          border-bottom-right-radius: 0;
+        }
+        .finda-social-banner__container {
+          width: 90%;
+        }
+        .finda-banner-text {
+          padding-top: 40px;
+        }
+        .banner-heading {
+          font-size: 35px;
+          width: 100%;
+        }
       }
     `}</style>
   </Layout>

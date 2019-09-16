@@ -113,6 +113,33 @@ class SearchContainer extends React.Component {
           grid-gap: 3%;
           margin-top: 80px;
         }
+        .account-title {
+          opacity: 0.6;
+          color: #FFFFFF;
+          font-family: 'Barlow', sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          text-align: center;
+          margin-bottom: 100px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1250px){
+          .finda-reporter {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-gap: 15px;
+            margin-top: 80px;
+          }
+        }
+        @media screen and (max-width: 767px){
+          .finda-reporter {
+            grid-template-columns: 100%;
+            grid-gap: 0;
+            margin-top: 20px;
+          }
+          .account-title {
+            font-size: 16px;
+          }
+        }
       `}</style>    
     </div>;
   }

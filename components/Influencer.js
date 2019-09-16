@@ -90,7 +90,10 @@ const Influencer = (props) => {
           list-style-type: none;
           display: inline-block;
           padding: 0 20px;
-          border-right: 1px solid #ADADAD;
+          border-right: 1px solid rgba(173,173,173 , 0.2);;
+        }
+        .reporter-list:last-child {
+          border-right: 0;
         }
         .social-heading {
           margin: 0;
@@ -116,7 +119,24 @@ const Influencer = (props) => {
           font-family: 'Barlow', sans-serif;
           font-weight: 700;
           padding: 15px 0;
-          border-top: 1px solid #D8D8D8;
+          border-top: 1px solid rgba(173,173,173 ,0.2);
+        }
+        @media screen and (min-width: 768px) and (max-width: 1250px){
+          .social-heading {
+            font-size: 18px;
+          }
+          .reporter-list {
+            padding: 0 10px;
+          }
+        }
+        @media screen and (max-width: 767px){
+          .influencer-sec {
+            padding-bottom: 50px;
+          }
+          .finda-reporter-item {
+            width: 330px;
+            margin: 30px auto 0 auto;
+          }
         }
       `}</style>
     </div>

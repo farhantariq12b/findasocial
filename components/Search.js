@@ -23,7 +23,7 @@ const Search = (props) => {
       .finda-social-search {
         border: 2px solid #F32855;
         border-radius: 2px 5.2px 5.2px 2px;
-        width: 654px;
+        width: 655px;
         margin: 0 auto;
       }
       .social-search-input {
@@ -67,6 +67,26 @@ const Search = (props) => {
       button {
         cursor: pointer;
         outline: none;
+      }
+      @media screen and (max-width: 767px){
+        .finda-social-search {
+          width: 90%;
+          margin: 60px auto 14px auto;
+        }
+        .social-search-input {
+          border: 0;
+          width: 60%;
+          height: 51px;
+        }
+        .search-btn {
+          border: 0;
+          padding: 15px 18px;
+          margin-left: 0;
+          position: relative;
+          left: 0px;
+          float: right;
+          font-size: 19px;
+        }
       }
 
     `}</style>
