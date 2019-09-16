@@ -50,7 +50,7 @@ const Search = (props) => {
         font-weight: 700;
         margin-left: -37px;
         position: relative;
-        left: 2px;
+        left: 3px;
       }
 
       .search-btn {

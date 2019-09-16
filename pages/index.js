@@ -6,7 +6,7 @@ import SearchContainer from '../components/SearchContainer';
 const Index = (props) => (
   <Layout>
     <section className="finda-social-banner">
-      <div className="finda-social-banner__container">
+      <div id="finda-social-banner__container" className="finda-social-banner__container">
         <Navbar />
 
         <div className="finda-banner-text">
