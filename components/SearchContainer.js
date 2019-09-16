@@ -93,7 +93,7 @@ class SearchContainer extends React.Component {
     const {influencers, searchQuery} = this.state;
 
     let influencersList = Object.keys(influencers).map(function(key) {
-      return <Influencer keys={key} influencer={influencers[key]} />
+      return <Influencer key={key} keys={key} influencer={influencers[key]} />
     });
 
     return <div>
